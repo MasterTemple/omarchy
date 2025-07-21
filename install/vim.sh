@@ -1,0 +1,1 @@
+ln -s ~/.local/share/omarchy/default/vim/.vimrc ~/.vimrc
