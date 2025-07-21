@@ -26,7 +26,7 @@ esac
 
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/home/dgmastertemple/.cargo/bin/
-export PATH="$PATH:/home/dglinuxtemple/.screenlayout"
+export PATH="$PATH:/home/dgmastertemple/.screenlayout"
 
 export PATH="$INSTALL_DIR/bin:$PATH"
 
@@ -36,7 +36,7 @@ export NVM_DIR="$HOME/.nvm"
 
 export BUN_INSTALL="/home/dgmastertemple/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-export PATH="/home/dglinuxtemple/go/bin:$PATH"
+export PATH="/home/dgmastertemple/go/bin:$PATH"
 export PATH="/home/dgmastertemple/GitHub/cordless:$PATH"
 export PATH="~/Development/bash:$PATH"
 export PATH="~/Development/python/esv_cli:$PATH"
@@ -51,4 +51,9 @@ export AMPL_LICFILE=$HOME/.ampl/ampl.lic
 export AMPLKEY_RUNTIME_DIR=$HOME/.ampl
 export PATH=/opt/ampl.linux-intel64/:$PATH
 
+export TMUX_PLUGIN_MANAGER_PATH="~/.config/tmux/plugins/"
+
 export PATH=".:$PATH"
+
+# tmux new
+# tmux source ~/.config/tmux/tmux.conf

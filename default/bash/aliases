@@ -69,9 +69,9 @@ alias sk3='screenkey -t 0.4 -p fixed -g 300x40+2650+1840 -f "DroidSansM Nerd Fon
 # moved middle monitor up
 alias sk3='screenkey -t 0.4 -p fixed -g 300x40+2650+1440 -f "DroidSansM Nerd Font 10" -s small --persist' # 3 monitors
 
-alias hog="python /home/dglinuxtemple/Development/python/hymnal/select.py"
-alias tb="/home/dglinuxtemple/Documents/textbooks/select_textbook.sh"
-alias syl="/home/dglinuxtemple/Documents/syllabi/select_syllabi.sh"
+alias hog="python /home/dgmastertemple/Development/python/hymnal/select.py"
+alias tb="/home/dgmastertemple/Documents/textbooks/select_textbook.sh"
+alias syl="/home/dgmastertemple/Documents/syllabi/select_syllabi.sh"
 alias cwd="pwd | scb" # copy working directory
 alias lua="lua5.1"
 
@@ -86,9 +86,9 @@ alias fc="fzf --exact --preview 'cat {}' | sed 's/ /\\ /g' | xargs -d '\n' code"
 alias fp="fzf --exact --preview 'cat {}' | sed 's/ /\\\\ /g' | xargs -d '\\n' echo | tr -d '\n' | xclip -selection clipboard" # copy file path
 alias fa="fzf --exact --preview 'cat {}' | sed 's/ /\\\\ /g' | xargs -d '\\n' -I {} sh -c 'echo $(realpath {})' | tr -d '\n' | xclip -selection clipboard" # copy absolute file path
 # alias fod="fzf --exact --preview 'cat {}' | sed 's/ /\\ /g' | xargs -d '\n' cd" # cd to path
-# alias fd="/home/dglinuxtemple/Development/bash/fd.sh"
-alias td="python /home/dglinuxtemple/Development/python/todoist/app/main.py"
-alias utd="python /home/dglinuxtemple/Development/python/todoist/app/canvas_api.py"
+# alias fd="/home/dgmastertemple/Development/bash/fd.sh"
+alias td="python /home/dgmastertemple/Development/python/todoist/app/main.py"
+alias utd="python /home/dgmastertemple/Development/python/todoist/app/canvas_api.py"
 
 
 alias x='exit'
@@ -114,8 +114,8 @@ alias hide="echo Sleeping...;systemctl suspend -i;"
 alias h="hide"
 # alias python="python3.10"
 alias py="python3.10"
-# alias python="/home/dglinuxtemple/anaconda3/bin/python"
-# alias py="/home/dglinuxtemple/anaconda3/bin/python"
+# alias python="/home/dgmastertemple/anaconda3/bin/python"
+# alias py="/home/dgmastertemple/anaconda3/bin/python"
 alias clera="clear"
 alias git_creds="echo MasterTemple\npassword"
 alias vim="nvim"

@@ -23,3 +23,7 @@ set +h
 #     . /etc/bash_completion
 #   fi
 # fi
+
+eval "$(starship init bash)"
+# initialize television
+# eval "$(tv init bash)"
