@@ -4,3 +4,4 @@
 
 # install TV
 cargo binstall television
+tv update-channels
