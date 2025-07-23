@@ -13,3 +13,5 @@ insensitive=true
 allow_images=true
 image_size=40
 gtk_dark=true
+key_down=Ctrl-n
+key_up=Ctrl-p
