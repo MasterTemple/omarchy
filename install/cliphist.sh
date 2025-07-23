@@ -1,0 +1,1 @@
+yay -S cliphist --noconfirm
