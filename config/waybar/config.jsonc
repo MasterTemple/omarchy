@@ -11,8 +11,10 @@
     "clock"
   ],
   "modules-right": [
-    "group/tray-expander",
-    "cpu",
+    "tray",
+    "custom/pipe",
+    // "group/tray-expander",
+    // "cpu",
     "network",
     "bluetooth",
     "pulseaudio",
@@ -62,7 +64,7 @@
     "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
     "format" : "{icon}",
     "format-wifi" : "{icon}",
-    "format-ethernet" : "󰀂",
+    "format-ethernet" : "🖧",
     "format-disconnected" : "󰖪",
     "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-ethernet": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
@@ -112,6 +114,7 @@
     }
   },
   "group/tray-expander": {
+    "expand": true,
     "orientation": "inherit",
     "drawer": {
       "transition-duration": 600,
@@ -119,11 +122,15 @@
     },
     "modules": [
       "custom/expand-icon",
-    "tray"
+      "tray",
     ]
   },
   "custom/expand-icon": {
     "format": " ",
+    "tooltip": false
+  },
+  "custom/pipe": {
+    "format": " | ",
     "tooltip": false
   },
   "tray": {
