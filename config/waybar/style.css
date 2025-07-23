@@ -54,3 +54,23 @@ tooltip {
 #submap.DEFAULT {
   background-color: rgb(11, 39, 57);
 }
+#pulseaudio.bluetooth,
+#bluetooth.connected {
+  color: #23D0CF;
+}
+
+#pulseaudio.muted {
+  opacity: 0.5;
+}
+
+#battery.full {
+  color: green;
+}
+
+#battery.warning {
+  color: yellow;
+}
+
+#battery.critical {
+  color: red;
+}
