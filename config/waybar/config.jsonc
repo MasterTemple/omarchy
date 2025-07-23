@@ -12,10 +12,10 @@
   ],
   "modules-right": [
     "group/tray-expander",
-    "bluetooth",
-    "network",
-    "pulseaudio",
     "cpu",
+    "network",
+    "bluetooth",
+    "pulseaudio",
     "battery"
   ],
   "hyprland/workspaces": {
@@ -32,6 +32,7 @@
       "7": "7",
       "8": "8",
       "9": "9",
+      "10": "0",
       "active": "󱓻"
     },
     "persistent-workspaces": {
@@ -39,7 +40,12 @@
       "2": [],
       "3": [],
       "4": [],
-      "5": []
+      "5": [],
+      "6": [],
+      "7": [],
+      "8": [],
+      "9": [],
+      "10": [],
     }
   },
   "cpu": {
@@ -48,8 +54,8 @@
     "on-click": "alacritty -e btop"
   },
   "clock": {
-    "format": "{:%A %H:%M}",
-    "format-alt": "{:%d %B W%V %Y}",
+    "format": "{:%B %d - %H:%M - %A}",
+    // "format-alt": "{:%d %B W%V %Y}",
     "tooltip": false
   },
   "network": {
@@ -66,10 +72,10 @@
     "on-click": "alacritty --class=Impala -e impala"
   },
   "battery": {
-    "format": "{capacity}% {icon}",
-    "format-discharging": "{icon}",
-    "format-charging":    "{icon}",
-    "format-plugged":     "",
+    "format": "{icon} {capacity}%",
+    // "format-discharging": "{capacity}% {icon}",
+    // "format-charging":    "{icon}",
+    // "format-plugged":     "",
     "format-icons": {
       "charging": [
         "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"
@@ -95,7 +101,7 @@
     "on-click": "blueberry"
   },
   "pulseaudio": {
-    "format": "{icon}",
+    "format": "{icon} {volume}%",
     "on-click": "pavucontrol",
     "on-click-right": "pamixer -t",
     "tooltip-format": "Playing at {volume}%",
