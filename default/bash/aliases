@@ -73,7 +73,7 @@ alias hog="python /home/dgmastertemple/Development/python/hymnal/select.py"
 alias tb="/home/dgmastertemple/Documents/textbooks/select_textbook.sh"
 alias syl="/home/dgmastertemple/Documents/syllabi/select_syllabi.sh"
 alias cwd="pwd | scb" # copy working directory
-alias lua="lua5.1"
+# alias lua="lua5.1"
 
 # find file with fzf then open with nvim
 fzfnvim() {

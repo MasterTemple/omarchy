@@ -67,6 +67,9 @@ tooltip {
   color: green;
 }
 
+#battery.normal {
+  color: white;
+}
 #battery.warning {
   color: yellow;
 }
