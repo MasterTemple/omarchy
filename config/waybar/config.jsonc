@@ -23,7 +23,8 @@
     "network",
     "bluetooth",
     "pulseaudio",
-    "battery"
+    "battery",
+    "power-profiles-daemon"
   ],
   "hyprland/workspaces": {
     "on-click": "activate",
@@ -140,6 +141,18 @@
   "custom/pipe": {
     "format": " | ",
     "tooltip": false
+  },
+ "power-profiles-daemon": {
+    "format": "{icon}",
+    "format-icons": {
+      // https://emojidb.org/balance-emojis
+      // ☯ 🏦
+      "power-saver": "🌱",
+      "balanced": "⚖️",
+      "performance": "🚀",
+    },
+    "tooltip": true,
+    "on-click": "powerprofilesctl change"
   },
   "tray": {
     "icon-size": 12,
