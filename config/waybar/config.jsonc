@@ -106,7 +106,7 @@
   "bluetooth": {
     "format": " {num_connections}",
     // "format-disabled": "󰂲",
-    "format-disabled": "",
+    "format-disabled": "󰂲",
     "format-connected": " {num_connections}",
     "tooltip-format": "Devices connected: {num_connections}",
     "on-click": "blueberry"
@@ -117,7 +117,7 @@
     "on-click-right": "pamixer -t",
     "tooltip-format": "Playing at {volume}%",
     "scroll-step": 5,
-    "format-muted": "󰝟 -%",
+    "format-muted": "󰝟 0%",
     "format-icons": {
       "default": ["", "", ""]
     }
@@ -146,10 +146,9 @@
     "format": "{icon}",
     "format-icons": {
       // https://emojidb.org/balance-emojis
-      // ☯ 🏦
-      "power-saver": "🌱",
-      "balanced": "⚖️",
-      "performance": "🚀",
+      "power-saver": "🌱", // 🌱 🏦
+      "balanced": "☯", // ☯ '⚖️'
+      "performance": "🚀", // 🚀
     },
     "tooltip": true,
     "on-click": "powerprofilesctl change"
